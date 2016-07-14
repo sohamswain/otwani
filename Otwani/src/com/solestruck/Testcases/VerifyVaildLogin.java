@@ -20,6 +20,7 @@ public class VerifyVaildLogin {
 		Thread.sleep(3000);
 		driver.navigate().refresh();
 		driver.findElement(By.id("myaccount")).click();
+		driver.findElement(By.className("afad"));
 		
 		//created page object using Page Factory
 		LoginPageNew login_page=PageFactory.initElements(driver, LoginPageNew.class);
