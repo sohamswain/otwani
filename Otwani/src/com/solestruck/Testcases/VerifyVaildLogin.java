@@ -19,7 +19,7 @@ public class VerifyVaildLogin {
 		WebDriver driver= BrowserFactory.startBrowser("firefox", "http://www.solestruck.com/");
 		Thread.sleep(3000);
 		driver.navigate().refresh();
-		driver.findElement(By.id("myaccount")).click();
+		driver.findElement(By.id("dfadadaf")).click();
 		
 		//created page object using Page Factory
 		LoginPageNew login_page=PageFactory.initElements(driver, LoginPageNew.class);
